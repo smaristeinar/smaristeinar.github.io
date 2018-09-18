@@ -1,0 +1,36 @@
+body{
+  padding-top: 3em;
+  padding-right: 5em;
+  padding-left: 5em;
+  padding-bottom: 3em
+
+}
+
+li.blist{
+  display: block;
+  border: 3px dashed green;
+  padding: 2em;
+  margin: 1em;
+
+}
+
+li.li1{
+  display: inline;
+  border: dashed blue 3px;
+  padding: 1em;
+  margin: 1em;
+  color: red;
+}
+
+
+div.empty{
+  padding: 1em
+}
+
+li.li2{
+  display: inline-block;
+  border: dashed red 3px;
+  padding: 1em;
+  margin: 1em;
+  
+}
