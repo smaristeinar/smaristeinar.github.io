@@ -48,5 +48,7 @@ section.row{
 .box {
 	font-size: 1.2em;
 	height: 5em;
-  text-align: center;
+   display: flex;
+  align-items: center;
+  justify-content: center;
 }
