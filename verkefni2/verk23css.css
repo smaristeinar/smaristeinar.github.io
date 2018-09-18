@@ -1,0 +1,47 @@
+body{
+ max-width: 1000px;
+ margin-left: 250px;
+ margin-right: 250px;
+ }
+
+
+
+div.box1{
+  border: solid black 3px;
+  width: 324px;
+  float: left;
+}
+
+div.box2{
+
+  border: solid black 3px;
+  width: 324px;
+  float: left;
+}
+
+
+div.box3{
+  border: solid black 3px;
+  width: 324px;
+  float: left;
+}
+
+div.box4{
+  border: solid black 3px;
+  width:489px;
+  float: left;
+}
+
+div.box5{
+  border: solid black 3px;
+  width: 489px;
+  float: left;
+}
+
+h1.hed{
+  padding:
+}
+
+p.para{
+  padding
+}
