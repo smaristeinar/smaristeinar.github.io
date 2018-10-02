@@ -1,0 +1,45 @@
+/*test2*/
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  width: 960px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  border: 3px black solid;
+
+}
+
+.header123{
+  padding: 3em;
+  text-align: center;
+  border: 3px solid black;
+  grid-column-start: span 4;
+  grid-column-end: 4fr;
+  background-color: purple;
+}
+
+
+.nav{
+  border:black solid 3px;
+  grid-column-start: span 4;
+
+
+}
+
+.navgrid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.navgrid > nav{
+  background-color: brown;
+  padding: 1em;
+  text-align: center;
+}
