@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 960px;
+  padding-left:300px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+
+.box1{
+  border:3px solid black;
+  padding: 10px;
+  font-family: trebuchet, monospace;
+}
+
+.box2{
+  border-top: 3px black solid;
+  border-right: 3px black solid;
+  border-bottom: 3px black solid;
+  padding: 10px;
+  font-family: georgia;
+}
+
+.box3{
+  border-right: 3px black solid;
+  border-left: 3px black solid;
+  border-bottom: 3px black solid;
+  padding: 10px;
+  font-family:"palatino linotype";
+}
+
+.box4{
+ border-right: 3px black solid;
+ border-bottom: 3px black solid;
+ padding: 10px;
+ font-family: Arial, black
+}
+
+p{
+  font-size: 1em;
+}
