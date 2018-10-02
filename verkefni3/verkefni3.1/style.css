@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 960px;
+  padding-left: 300px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+
+.box1{
+  border:solid 3px;
+  font-family: "Times New Roman";
+  padding: 10px;
+
+
+}
+
+.box2{
+  border-top: 3px black solid;
+  border-bottom:3px black solid;
+  font-family:Arial, sans-serif;
+  padding: 10px;
+}
+
+
+
+.box3{
+  border:solid black 3px;
+  font-family: courier,Monotype;
+  padding: 10px;
+
+}
+
+p{
+  font-size:1em;
+}
