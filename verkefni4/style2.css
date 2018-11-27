@@ -1,0 +1,140 @@
+{
+  margin:;
+  padding: ;
+}
+
+body{
+
+}
+
+.grid{
+  display: grid;
+  grid-template-areas: 'tob'
+  'mid'
+
+
+}
+
+
+.top{  /*parent fyrir topinn á síðunni*/
+  display: grid;
+  grid-area: tob;
+  width: ;
+  padding-left: 300px;
+  padding-right: 300px;
+  background-color: blue;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.top_h1{
+  grid-row-start: 2;
+  background-color:;
+  color: white;
+}
+
+
+.top_p1{
+  text-align: right;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  color: white;
+}
+
+.top_links{
+  padding-top: 30px;
+  text-align: right;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  color: white;
+  text-decoration: none;
+}
+
+
+.top_links > a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.mid{    /*parent fyrir miðjuna á síðuni*/
+  display: grid;
+  grid-area: mid;
+  grid-template-areas:'emenue';
+  padding-left: 300px;
+  padding-right: 300px;
+  background-image: linear-gradient(#d1ad6c, yellow)
+}
+
+
+
+
+
+
+}
+/*endir á mid*/
+.bottom{
+  grid-area: botom;
+  padding:30px;
+  background-color: blue;
+  display: grid;
+  grid-template-areas: 'list1 list2 list3'
+
+}
+
+.list1{
+  padding-left:270px ;
+  grid-area: list1;
+
+}
+
+.list2{
+  grid-area: list2;
+  list-style-type: none;
+
+}
+
+.list3{
+
+  list-style-type: none;
+
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+
+a{
+  text-decoration: none;
+  color: black
+}
+
+
+
+dt{color: #d1ad6c;}
+
+
+
+/*emenue css*/
+
+.emenue{
+  grid-area: emenue;
+  display: grid;
+  grid-template-columns:repeat(11( 1fr));
+  background: blue;
+  padding: 7px 30px;
+  grid-auto-flow:column;
+  border-radius: 5px;
+  grid-column-gap: 10px;
+  grid-gap:black;
+  margin-top: 30px;
+}
+
+
+.emenue > a{
+  text-align: center;
+  font-size: 20px;
+
+}
