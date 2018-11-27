@@ -70,13 +70,13 @@ width: auto;
 .mid_box2{
   grid-area: mid_box2;
   text-align:center;
-  width: 500px;
-  padding-left: 209.6px;
+  width: 33%;
+  padding-left: 33.3%;
 
 }
 .mid_box2 > p{
-  background-color: #d1ad6c;
-  opacity: 0.5;
+  background-color:rgba(209,173,108,0.5 );
+  opacity: ;
 
 }
 
