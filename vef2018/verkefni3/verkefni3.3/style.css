@@ -1,0 +1,135 @@
+/*font-family: 'Monoton', cursive;
+font-family: 'Scada', sans-serif;*/
+
+*{
+  margin: 0;
+  padding:0;
+
+}
+
+
+body{
+position: absolute;
+height: auto;
+width: auto;
+padding-left: 150px;
+padding-right: 150px;
+background-color: #5a95f4;
+
+}
+
+.rammi{
+
+  box-shadow: 0 0 70px 45px #abcafc;
+
+}
+
+.header123{ grid-area: header;}
+.navgrid{ grid-area: nav;}
+.efni{grid-area: efni;}
+
+.grid{
+  display: grid;
+  grid-template-areas:
+  'header'
+  'nav'
+  'efni'
+  'footer'  ;
+}
+
+
+.nav{
+  background-color:#0fc400;
+  border-top: 4px solid #green;
+
+}
+
+
+.header123{
+  background-image: url('bikeguy3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 3em;
+}
+.header123 > h1{
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Monoton', cursive;
+
+}
+
+
+.navgrid{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+.navgrid > nav{
+  text-align: center;
+  padding: 1em;
+  color: black;
+
+}
+
+
+
+
+.a1{
+  color: white;
+
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.a1:hover{
+  color: green;
+}
+
+
+.efni{
+  display: grid;
+  grid-template-areas:
+  'vinstri main main hægri';
+
+}
+
+.vinstri{
+  font-family: 'Scada', sans-serif
+  grid-area: vinstri;
+  padding: 3em;
+  background-color: #7c4f00;
+  }
+
+
+.main{
+  font-family: 'Scada', sans-serif
+  grid-area: main;
+  background-color: grey;
+  padding: 3em;
+  }
+
+.main:hover{
+  background-image: url('bikeride.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hægri{
+    font-family: 'Scada', sans-serif
+    grid-area: hægri;
+    background-color: #7c4f00;
+    padding: 3em;
+    }
+
+
+.footer{
+  grid-area: footer:;
+  background-color: #14600e;
+  text-align: center;
+  padding:1em;
+
+
+}

@@ -1,0 +1,27 @@
+body{
+  margin:50px
+}
+
+h1.h1box1{
+  border-style: solid;
+  border-color: green;
+
+}
+h1.h1box2{
+  color: red;
+  border: solid green;
+}
+
+div.box2{
+  border: solid red;
+  margin:50px;
+  padding: 50px;
+}
+
+
+div.box3{
+  color: blue;
+  border: dotted blue;
+
+
+}
