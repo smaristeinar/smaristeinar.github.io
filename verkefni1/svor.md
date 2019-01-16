@@ -19,6 +19,9 @@ git -diff sínir munin a gömlu og nýju færsluni
 
   helstu kostir við það að nota git version controle of increas of workflow þar sem þú þarft ekki að díla við UI sem getur verið hindrandi
 
+  Á nýju greininn minni get ég sagt mína skoðun á Git Umsjónarkerfinu...
+ .. **bættu við þínu áliti hér**  
+
 
   þú átt að  committa þegar þú ert hættur að skrifa og byrjar að lesa það sem þú vast að skrifa
 
