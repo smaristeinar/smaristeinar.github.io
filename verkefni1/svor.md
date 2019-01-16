@@ -15,4 +15,6 @@ git -diff sínir munin a gömlu og nýju færsluni
   git branch - listar branchec bír þær til eða eyðir þeim
 
 
-  version controle er það sem heldur umm breytingar á filum og leifir þér að kalla til baka eldri fæla 
+  version controle er það sem heldur umm breytingar á filum og leifir þér að kalla til baka eldri fæla  
+
+  helstu kostir við það að nota git version controle of increas of workflow þar sem þú þarft ekki að díla við UI sem getur verið hindrandi
