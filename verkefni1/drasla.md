@@ -1,1 +1,0 @@
-fokking fokk shit drasl
