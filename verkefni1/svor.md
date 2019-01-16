@@ -18,3 +18,6 @@ git -diff sínir munin a gömlu og nýju færsluni
   version controle er það sem heldur umm breytingar á filum og leifir þér að kalla til baka eldri fæla  
 
   helstu kostir við það að nota git version controle of increas of workflow þar sem þú þarft ekki að díla við UI sem getur verið hindrandi
+
+
+  þú átt að  committa þegar þú ert hættur að skrifa og byrjar að lesa það sem þú vast að skrifa 
