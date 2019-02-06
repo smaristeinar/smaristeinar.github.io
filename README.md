@@ -1,1 +1,0 @@
-# smaristeinar.github.io
