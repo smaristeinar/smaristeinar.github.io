@@ -3,11 +3,7 @@ body {
   width: 100%;
   background-color: black;
   margin: 0px;
-  padding: 0px;
-  background: linear-gradient(#f765b8, #27fdf5);
-  background-blend-mode: color-burn;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  padding: 0px; }
 
 .content {
   color: #f765b8;
@@ -21,6 +17,13 @@ body {
   margin-bottom: 100%; }
 
 .background {
+  background: linear-gradient(#f765b8, #27fdf5);
+  background-blend-mode: color-burn;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 75px;
+  margin-right: 75px;
+  border: solid 8px hotpink;
   padding-left: 100px;
   padding-right: 100px; }
 
@@ -34,5 +37,7 @@ body {
 
 .takkar > a {
   padding: 10px;
-  border: 3px solid pink;
-  color: pink; }
+  border: 3px solid #f98dc9;
+  background-color: #27fdf5;
+  color: #f98dc9;
+  border-radius: 12px; }
