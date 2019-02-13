@@ -1,0 +1,38 @@
+body {
+  height: 1080px;
+  width: 100%;
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(#f765b8, #27fdf5);
+  background-blend-mode: color-burn;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.content {
+  color: #f765b8;
+  background-color: #27fdf5;
+  text-decoration: none;
+  padding-left: 33.3%;
+  padding-right: 33.3%;
+  text-align: center;
+  border: solid 3px #f98dc9;
+  border-radius: 12px;
+  margin-bottom: 100%; }
+
+.background {
+  padding-left: 100px;
+  padding-right: 100px; }
+
+.takkar {
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center; }
+
+.navdiv {
+  padding: 30px; }
+
+.takkar > a {
+  padding: 10px;
+  border: 3px solid pink;
+  color: pink; }
