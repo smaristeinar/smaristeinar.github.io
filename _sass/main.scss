@@ -1,33 +1,38 @@
 body{
+  height:1080px;
+  width: 100%;
+  background-color: black;
   margin: 0px;
   padding: 0px;
-  background: black;
-  width: 100%;
-  height: 100%;
+  background:linear-gradient(#f765b8,#27fdf5);
+  background-blend-mode:color-burn;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+
 }
 
 
 .content{
-  text-decoration: none;;
+  color: 	#f765b8;
+  background-color: #27fdf5;
+  text-decoration: none;
   padding-left: 33.3%;
   padding-right: 33.3%;
   text-align: center;
-  border: solid 3px pink;
+  border: solid 3px #f98dc9;
+  border-radius: 12px;
+  margin-bottom: 100%;
 
 }
 
 
 
 .background{
-  padding-bottom: 100%;
   padding-left: 100px;
   padding-right: 100px;
-  background:
-       linear-gradient(red, transparent),
-       linear-gradient(to top left, lime, transparent),
-       linear-gradient(to top right, blue, transparent);
-   background-blend-mode: screen;
-   background-repeat: no-repeat;
+
+
 }
 
 
