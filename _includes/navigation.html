@@ -1,4 +1,5 @@
-<div class="navdiv">  
+
+<div class="navdiv">
 <nav class="takkar">
   {% for item in site.data.navigation %}
     <a href="{{ item.link }}" class="takkar" {% if page.url == item.link %}{% endif %}>{{ item.name }}</a>

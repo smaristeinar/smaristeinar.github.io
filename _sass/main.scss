@@ -1,15 +1,13 @@
 body{
-  height:1080px;
+  height:100%;
   width: 100%;
-  background-color: black;
+  background-color: white;
   margin: 0px;
   padding: 0px;
-
-
-
 }
-.bbg{
-
+.authors > a{
+  list-style: none;
+  list-style-position: inside;
 }
 
 .content{
@@ -21,7 +19,7 @@ body{
   text-align: center;
   border: solid 3px #f98dc9;
   border-radius: 12px;
-  margin-bottom: 100%;
+
 
 }
 
@@ -34,9 +32,13 @@ body{
   background-size:cover;
   margin-left:75px;
   margin-right:75px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   border: solid 8px hotpink;
+  box-shadow: 55px 75px black;
   padding-left: 100px;
   padding-right: 100px;
+
 
 
 }
@@ -52,9 +54,21 @@ body{
 }
 
 .takkar > a{
+    font-family: 'Miami', cursive;
     padding: 10px;
     border: 3px solid #f98dc9;
     background-color: #27fdf5;
     color: #f98dc9;
     border-radius: 12px;
+}
+
+
+
+.tree > img{
+  width: 300px;
+  height: 300px;
+  padding: 0px;
+  margin: 0px;
+  display: block;
+
 }
