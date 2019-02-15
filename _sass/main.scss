@@ -7,13 +7,10 @@ body{
   text-decoration: none;
 }
 .authors{
-  list-style: none;
-  list-style-position: inside;
+  padding-right: 15px;
   text-decoration:none;
-  display: block;
+  list-style-image: url(/assets/img/gun.gif);
 }
-
-
 
 .content{
   color: 	#f765b8;
@@ -62,7 +59,7 @@ body{
     border: 3px solid #f98dc9;
     background-color: #27fdf5;
     color: #f98dc9;
-    border-radius: 12px;
+
 
 }
 
