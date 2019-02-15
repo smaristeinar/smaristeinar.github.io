@@ -4,11 +4,16 @@ body{
   background-color: white;
   margin: 0px;
   padding: 0px;
+  text-decoration: none;
 }
-.authors > a{
+.authors{
   list-style: none;
   list-style-position: inside;
+  text-decoration:none;
+  display: block;
 }
+
+
 
 .content{
   color: 	#f765b8;
@@ -19,8 +24,6 @@ body{
   text-align: center;
   border: solid 3px #f98dc9;
   border-radius: 12px;
-
-
 }
 
 
@@ -50,7 +53,7 @@ body{
   text-align: center;
 }
 .navdiv{
-  padding: 30px;
+  padding: 35px;
 }
 
 .takkar > a{
@@ -60,6 +63,13 @@ body{
     background-color: #27fdf5;
     color: #f98dc9;
     border-radius: 12px;
+
+}
+
+.takkar > a:hover{
+  margin: 20px;
+  box-shadow: 20px 20px black;
+  border-radius: 0px;
 }
 
 
