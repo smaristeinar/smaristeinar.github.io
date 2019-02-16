@@ -1,8 +1,8 @@
 
-<div class="navdiv">
-<nav class="takkar">
+
+<nav class="navdiv">
   {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" class="takkar" {% if page.url == item.link %}{% endif %}>{{ item.name }}</a>
+    <li class="takkar"><a href="{{ item.link }}"  {% if page.url == item.link %}{% endif %}>{{ item.name }}</a>
+      </li>
   {% endfor %}
 </nav>
-</div>

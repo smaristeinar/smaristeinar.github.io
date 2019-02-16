@@ -5,7 +5,10 @@ body{
   margin: 0px;
   padding: 0px;
   text-decoration: none;
+  cursor: url(/assets/img/mask.png),auto;
 }
+
+
 .authors{
   padding-right: 15px;
   text-decoration:none;
@@ -50,25 +53,37 @@ body{
   text-align: center;
 }
 .navdiv{
-  padding: 35px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width:  1200px;
+  padding-left: 11%;
+
 }
 
-.takkar > a{
+.takkar{
     font-family: 'Miami', cursive;
-    padding: 10px;
+    margin: 25px;
+    padding: 15px;
     border: 3px solid #f98dc9;
     background-color: #27fdf5;
-    color: #f98dc9;
-
+      list-style-image: url(/assets/img/gun.gif);
+    cursor: url(/assets/img/mask.png),auto;
 
 }
 
-.takkar > a:hover{
-  margin: 20px;
+.takkar:hover{
+
   box-shadow: 20px 20px black;
   border-radius: 0px;
 }
 
+.takkar > a{
+
+  color: #f98dc9;
+  cursor: url(/assets/img/mask.png),auto;
+  text-decoration: none;
+  width: 45px;
+}
 
 
 .tree > img{
