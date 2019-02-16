@@ -2,7 +2,7 @@
 
 <nav class="navdiv">
   {% for item in site.data.navigation %}
-    <li class="takkar"><a href="{{ item.link }}"  {% if page.url == item.link %}{% endif %}>{{ item.name }}</a>
+    <li class="takkar"><a onclick= "myAudioFunction('a')" href="{{ item.link }}"  {% if page.url == item.link %}{% endif %}>{{ item.name }}</a>
       </li>
   {% endfor %}
 </nav>

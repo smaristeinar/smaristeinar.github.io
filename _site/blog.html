@@ -6,22 +6,22 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="font" href="/assets/fonts/Miami.ttf">
   </head>
-  <body class="slideLeft">
+  <body class="slideLeft" onclick= "myAudioFunction('a')">
     <div class="background">
       
 
 <nav class="navdiv">
   
-    <li class="takkar"><a href="/"  >Home</a>
+    <li class="takkar"><a onclick= "myAudioFunction('a')" href="/"  >Home</a>
       </li>
   
-    <li class="takkar"><a href="/about.html"  >About</a>
+    <li class="takkar"><a onclick= "myAudioFunction('a')" href="/about.html"  >About</a>
       </li>
   
-    <li class="takkar"><a href="/blog.html"  >Blog</a>
+    <li class="takkar"><a onclick= "myAudioFunction('a')" href="/blog.html"  >Blog</a>
       </li>
   
-    <li class="takkar"><a href="/staff.html"  >Staff</a>
+    <li class="takkar"><a onclick= "myAudioFunction('a')" href="/staff.html"  >Staff</a>
       </li>
   
 </nav>
@@ -71,4 +71,12 @@ of large herbaceous flowering plants in the genus Musa.</p>
     </div>
 
   </body>
+  <script>
+       var aAudio = new Audio('/assets/audio/a.mp3');
+       function myAudioFunction(letter) {
+           if(letter == 'a') {
+               aAudio.play();s
+           }
+       }
+   </script>
 </html>

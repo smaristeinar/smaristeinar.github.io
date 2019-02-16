@@ -6,6 +6,11 @@ body{
   padding: 0px;
   text-decoration: none;
   cursor: url(/assets/img/mask.png),auto;
+  user-select: none;
+}
+
+body:active{
+  cursor: url(/assets/img/gun.gif),auto;
 }
 
 

@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="font" href="/assets/fonts/Miami.ttf">
   </head>
-  <body class="slideLeft">
+  <body class="slideLeft" onclick= "myAudioFunction('a')">
     <div class="background">
       {% include navigation.html %}
       <div class="content">
@@ -19,4 +19,12 @@
     </div>
 
   </body>
+  <script>
+       var aAudio = new Audio('/assets/audio/a.mp3');
+       function myAudioFunction(letter) {
+           if(letter == 'a') {
+               aAudio.play();s
+           }
+       }
+   </script>
 </html>
