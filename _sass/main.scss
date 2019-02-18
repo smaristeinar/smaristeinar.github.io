@@ -1,12 +1,16 @@
 body{
-  height:100%;
-  width: 100%;
+  max-height:1920px;
+  max-width:1080px;
   background-color: white;
   margin: 0px;
   padding: 0px;
   text-decoration: none;
   cursor: url(/assets/img/mask.png),auto;
   user-select: none;
+  margin-left: auto;
+  margin-right: auto;
+
+
 }
 
 body:active{
@@ -24,8 +28,8 @@ body:active{
   color: 	#f765b8;
   background-color: #27fdf5;
   text-decoration: none;
-  padding-left: 33.3%;
-  padding-right: 33.3%;
+  padding-left: 25%;
+  padding-right: 25%;
   text-align: center;
   border: solid 3px #f98dc9;
   border-radius: 12px;
@@ -38,56 +42,47 @@ body:active{
   background-blend-mode:color-burn;
   background-repeat: no-repeat;
   background-size:cover;
-  margin-left:75px;
-  margin-right:75px;
+
   margin-top: 30px;
   margin-bottom: 30px;
   border: solid 8px hotpink;
   box-shadow: 55px 75px black;
   padding-left: 100px;
   padding-right: 100px;
-
-
-
 }
 
 
+
+
+
+
 .takkar{
+
   text-decoration: none;
   font-size: 30px;
   text-align: center;
-}
-.navdiv{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  width:  1200px;
-  padding-left: 11%;
-
-}
-
-.takkar{
-    font-family: 'Miami', cursive;
-    margin: 25px;
-    padding: 15px;
-    border: 3px solid #f98dc9;
-    background-color: #27fdf5;
-      list-style-image: url(/assets/img/gun.gif);
-    cursor: url(/assets/img/mask.png),auto;
+  font-family: 'Miami', cursive;
+  margin: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 15px;
+  border: 3px solid #f98dc9;
+  background-color: #27fdf5;
+  cursor: url(/assets/img/mask.png),auto;
 
 }
 
 .takkar:hover{
-
   box-shadow: 20px 20px black;
   border-radius: 0px;
+  margin-right: 25px;
 }
 
-.takkar > a{
+.navdiv{
+  display: flex;
+  justify-content: center;
 
-  color: #f98dc9;
-  cursor: url(/assets/img/mask.png),auto;
-  text-decoration: none;
-  width: 45px;
+
 }
 
 
@@ -98,4 +93,14 @@ body:active{
   margin: 0px;
   display: block;
 
+}
+.man{
+
+}
+
+
+.man > img{
+  display: flex;  
+  padding: 0px;
+  margin: 0px;
 }
