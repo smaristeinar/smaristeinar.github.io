@@ -26,9 +26,19 @@
 
       <div class="content">
       <div class="man">
-  <img src="/assets/img/manhead2.png" alt="">
+  <img onclick="myAudioFunction('b')" src="/assets/img/manhead2.png" alt="">
   <img src="/assets/img/mantorso2.png" alt="">
 </div>
+
+
+<script>
+     var bAudio = new Audio('/assets/audio/b.mp3');
+     function myAudioFunction(letter) {
+         if(letter == 'b') {
+             bAudio.play();s
+         }
+     }
+ </script>
 
       </div>
       <div class="tree">
@@ -40,10 +50,14 @@
   </body>
   <script>
        var aAudio = new Audio('/assets/audio/a.mp3');
+       var bAudio = new audio('/assets/audio/b.mp3')
        function myAudioFunction(letter) {
            if(letter == 'a') {
                aAudio.play();s
            }
+           else if(letter == 'b') {
+               bAudio.play();s
+          }
        }
    </script>
 </html>

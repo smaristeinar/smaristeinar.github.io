@@ -94,13 +94,15 @@ body:active{
   display: block;
 
 }
-.man{
+.man:hover{
+  cursor: url(/assets/img/cross2.png),crosshair;
 
 }
 
 
 .man > img{
-  display: flex;  
+  cursor: url(/assets/img/cross2.png),crosshair;
+  display: flex;
   padding: 0px;
   margin: 0px;
 }
