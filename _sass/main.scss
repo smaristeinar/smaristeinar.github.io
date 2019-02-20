@@ -20,9 +20,16 @@ body:active{
 
 .authors{
   padding-right: 15px;
-  text-decoration:none;
+  text-decoration: none;
+  color: hotpink;
   list-style-image: url(/assets/img/gun.gif);
+  cursor: url(/assets/img/gun.gif),auto;
 }
+
+
+
+  
+
 
 .content{
   color: 	#f765b8;
@@ -42,7 +49,6 @@ body:active{
   background-blend-mode:color-burn;
   background-repeat: no-repeat;
   background-size:cover;
-
   margin-top: 30px;
   margin-bottom: 30px;
   border: solid 8px hotpink;
@@ -57,11 +63,11 @@ body:active{
 
 
 .takkar{
-
   text-decoration: none;
+  color: hotpink;
   font-size: 30px;
   text-align: center;
-  font-family: 'Miami', cursive;
+  font-family: Miami, cursive;
   margin: 25px;
   margin-left: 10px;
   margin-right: 10px;

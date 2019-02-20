@@ -16,7 +16,9 @@ body:active {
 .authors {
   padding-right: 15px;
   text-decoration: none;
-  list-style-image: url(/assets/img/gun.gif); }
+  color: hotpink;
+  list-style-image: url(/assets/img/gun.gif);
+  cursor: url(/assets/img/gun.gif), auto; }
 
 .content {
   color: #f765b8;
@@ -42,9 +44,10 @@ body:active {
 
 .takkar {
   text-decoration: none;
+  color: hotpink;
   font-size: 30px;
   text-align: center;
-  font-family: 'Miami', cursive;
+  font-family: Miami, cursive;
   margin: 25px;
   margin-left: 10px;
   margin-right: 10px;
