@@ -72,6 +72,12 @@ body:active {
 .man:hover {
   cursor: url(/assets/img/cross2.png), crosshair; }
 
+.man {
+  width: 150px;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 3px; }
+
 .man > img {
   cursor: url(/assets/img/cross2.png), crosshair;
   display: flex;

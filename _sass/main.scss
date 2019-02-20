@@ -100,9 +100,18 @@ body:active{
 }
 
 
+.man{
+  width: 150px;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 3px;
+}
+
+
 .man > img{
   cursor: url(/assets/img/cross2.png),crosshair;
   display: flex;
   padding: 0px;
   margin: 0px;
+
 }
