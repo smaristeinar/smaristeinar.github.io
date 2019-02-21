@@ -1,7 +1,12 @@
+/*
+font-family: 'Monoton', cursive; fonts or buttons
+font-family: 'Press Start 2P', cursive; paragrapsh
+font-family: 'Bungee Inline', cursive; headers
+*/
+@import url("https://fonts.googleapis.com/css?family=Bungee+Inline|Monoton|Press+Start+2P");
 body {
   max-height: 1920px;
   max-width: 1080px;
-  background-color: white;
   margin: 0px;
   padding: 0px;
   text-decoration: none;
@@ -42,12 +47,15 @@ body:active {
   padding-left: 100px;
   padding-right: 100px; }
 
+.background {
+  font-family: "Press Start 2P", cursive; }
+
 .takkar {
   text-decoration: none;
   color: hotpink;
   font-size: 30px;
   text-align: center;
-  font-family: Miami, cursive;
+  font-family: 'Monoton', cursive;
   margin: 25px;
   margin-left: 10px;
   margin-right: 10px;

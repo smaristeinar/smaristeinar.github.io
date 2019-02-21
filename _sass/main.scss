@@ -1,7 +1,13 @@
+/*
+font-family: 'Monoton', cursive; fonts or buttons
+font-family: 'Press Start 2P', cursive; paragrapsh
+font-family: 'Bungee Inline', cursive; headers
+*/
+
+
 body{
   max-height:1920px;
   max-width:1080px;
-  background-color: white;
   margin: 0px;
   padding: 0px;
   text-decoration: none;
@@ -17,7 +23,6 @@ body:active{
   cursor: url(/assets/img/gun.gif),auto;
 }
 
-
 .authors{
   padding-right: 15px;
   text-decoration: none;
@@ -28,7 +33,7 @@ body:active{
 
 
 
-  
+
 
 
 .content{
@@ -41,6 +46,7 @@ body:active{
   border: solid 3px #f98dc9;
   border-radius: 12px;
 }
+
 
 
 
@@ -58,6 +64,10 @@ body:active{
 }
 
 
+.background{
+  font-family: 'Press Start 2P', cursive
+}
+
 
 
 
@@ -67,7 +77,7 @@ body:active{
   color: hotpink;
   font-size: 30px;
   text-align: center;
-  font-family: Miami, cursive;
+  font-family: 'Monoton', cursive;
   margin: 25px;
   margin-left: 10px;
   margin-right: 10px;
