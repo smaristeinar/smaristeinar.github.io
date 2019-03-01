@@ -15,6 +15,9 @@ body {
   margin-left: auto;
   margin-right: auto; }
 
+.logo {
+  stroke: green 3px; }
+
 body:active {
   cursor: url(/assets/img/gun.gif), auto; }
 
@@ -24,6 +27,12 @@ body:active {
   color: hotpink;
   list-style-image: url(/assets/img/gun.gif);
   cursor: url(/assets/img/gun.gif), auto; }
+
+.logo {
+  padding: 0px;
+  margin: 0px;
+  height: 300px;
+  margin-bottom: 30px; }
 
 .content {
   color: #f765b8;

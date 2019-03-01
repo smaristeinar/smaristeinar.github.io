@@ -19,6 +19,12 @@ body{
 
 }
 
+.logo{
+  stroke: green 3px;
+}
+
+
+
 body:active{
   cursor: url(/assets/img/gun.gif),auto;
 }
@@ -32,7 +38,12 @@ body:active{
 }
 
 
-
+.logo{
+  padding: 0px;
+  margin: 0px;
+  height: 300px;
+  margin-bottom: 30px;
+}
 
 
 
