@@ -16,7 +16,8 @@ body {
   margin-right: auto; }
 
 .logo {
-  stroke: green 3px; }
+  width: 500px;
+  height: 500px; }
 
 body:active {
   cursor: url(/assets/img/gun.gif), auto; }
