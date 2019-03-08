@@ -179,19 +179,28 @@
 
 @keyframes ani {
   0% {
-    transform: rotateX(100%);
+    transform: translateX(0%);
   }
-  50% {
-    transform: rotateX(0%);
+  16% {
+    transform: translateX(150%);
   }
-  100% {
-    transform: rotateX(100%);
+  33% {
+    transform: translateX(-150%);
   }
+	66% {
+		transform: translateX(150%);
+	}
+	82% {
+		transform: translateX(0%);
+	}
+	100% {
+		transform: translateX(-150%);
+	}
 }
 
 
 
 	.man{
-		x-transition: all 1s ease-in-out;
-		  animation: ani 1.7s infinite;
+	 animation: ani 5s infinite ;
+
 	}

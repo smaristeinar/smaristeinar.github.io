@@ -114,8 +114,8 @@ body:active {
   background-color: #27fdf5;
   align-items: center;
   position: fixed;
-  margin-left: 20px;
   bottom: 1px;
+  margin-left: 20px;
   border: 3px solid hotpink;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
@@ -247,14 +247,19 @@ body:active {
     transform: translateX(0%); } }
 @keyframes ani {
   0% {
-    transform: rotateX(100%); }
-  50% {
-    transform: rotateX(0%); }
+    transform: translateX(0%); }
+  16% {
+    transform: translateX(150%); }
+  33% {
+    transform: translateX(-150%); }
+  66% {
+    transform: translateX(150%); }
+  82% {
+    transform: translateX(0%); }
   100% {
-    transform: rotateX(100%); } }
+    transform: translateX(-150%); } }
 .man {
-  x-transition: all 1s ease-in-out;
-  animation: ani 1.7s infinite; }
+  animation: ani 5s infinite; }
 
 @font-face {
   font-family: 'icomoon';
