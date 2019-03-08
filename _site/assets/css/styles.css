@@ -106,15 +106,37 @@ body:active {
   margin: 0px; }
 
 .socialbar {
+  transform: translateY(75%);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 100px; }
-
-.social {
   width: 300px;
-  height: 300px;
-  background-color: blue;
-  list-style-image: url(/assets/img/gun.gif); }
+  height: 75px;
+  background-color: #27fdf5;
+  align-items: center;
+  position: fixed;
+  margin-left: 20px;
+  bottom: 1px;
+  border: 3px solid hotpink;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding-left: 6px;
+  padding-right: 6px;
+  text-decoration: none; }
+
+.socialbar > a {
+  text-decoration: none;
+  color: black; }
+
+.a1 {
+  text-align: center;
+  height: 55px;
+  background-color: #27fdf5;
+  border: 3px solid hotpink;
+  border-radius: 8px;
+  margin: 3px;
+  font-size: 50px;
+  text-decoration: none;
+  padding-top: 6px; }
 
 .slideLeft {
   animation-name: slideLeft;
@@ -151,3 +173,69 @@ body:active {
     -webkit-transform: translateX(2%); }
   100% {
     -webkit-transform: translateX(0%); } }
+@keyframes sosialbaraan {
+  0% {
+    transform: translatey(75%); }
+  5% {
+    transform: translatey(70%); }
+  10% {
+    transform: translatey(65%); }
+  15% {
+    transform: translatey(60%); }
+  20% {
+    transform: translatey(55%); }
+  30% {
+    transform: translatey(50%); }
+  35% {
+    transform: translatey(45%); }
+  30% {
+    transform: translatey(40%); }
+  35% {
+    transform: translatey(35%); }
+  40% {
+    transform: translatey(30%); }
+  45% {
+    transform: translatey(25%); }
+  50% {
+    transform: translatey(20%); }
+  55% {
+    transform: translatey(15%); }
+  60% {
+    transform: translatey(10%); }
+  65% {
+    transform: translatey(5%); }
+  100% {
+    transform: translatey(0%); } }
+.socialbar:hover {
+  animation-name: sosialbaraan;
+  animation-duration: 1s;
+  visibility: visible !important;
+  transform: translatey(0%); }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?ngutep");
+  src: url("../fonts/icomoon.eot?ngutep#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?ngutep") format("truetype"), url("../fonts/icomoon.woff?ngutep") format("woff"), url("../fonts/icomoon.svg?ngutep#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-eyedropper:before {
+  content: "\e90a"; }
+
+.icon-droplet:before {
+  content: "\e90b"; }
+
+.icon-target:before {
+  content: "\e9b3"; }
