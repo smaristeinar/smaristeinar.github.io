@@ -212,6 +212,50 @@ body:active {
   visibility: visible !important;
   transform: translatey(0%); }
 
+@keyframes manmove {
+  0% {
+    transform: translateX(75%); }
+  5% {
+    transform: translateX(70%); }
+  10% {
+    transform: translateX(65%); }
+  15% {
+    transform: translateX(60%); }
+  20% {
+    transform: translateX(55%); }
+  30% {
+    transform: translateX(50%); }
+  35% {
+    transform: translatXy(45%); }
+  30% {
+    transform: translateX(40%); }
+  35% {
+    transform: translateX(35%); }
+  40% {
+    transform: translateX(30%); }
+  45% {
+    transform: translateX(25%); }
+  50% {
+    transform: translateX(20%); }
+  55% {
+    transform: translateX(15%); }
+  60% {
+    transform: translateX(10%); }
+  65% {
+    transform: translateX(5%); }
+  100% {
+    transform: translateX(0%); } }
+@keyframes ani {
+  0% {
+    transform: rotateX(100%); }
+  50% {
+    transform: rotateX(0%); }
+  100% {
+    transform: rotateX(100%); } }
+.man {
+  x-transition: all 1s ease-in-out;
+  animation: ani 1.7s infinite; }
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon.eot?ngutep");
