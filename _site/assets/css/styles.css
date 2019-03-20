@@ -33,6 +33,7 @@ body:active {
   padding: 0px;
   margin: 0px;
   height: 300px;
+  max-width: 100%;
   margin-bottom: 30px; }
 
 .content {
@@ -43,7 +44,8 @@ body:active {
   padding-right: 25%;
   text-align: center;
   border: solid 3px #f98dc9;
-  border-radius: 12px; }
+  border-radius: 12px;
+  max-width: 100%; }
 
 .background {
   background: linear-gradient(#f765b8, #27fdf5);
@@ -81,7 +83,8 @@ body:active {
 
 .navdiv {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  flex-wrap: wrap; }
 
 .tree > img {
   width: 300px;
@@ -138,6 +141,17 @@ body:active {
   text-decoration: none;
   padding-top: 6px; }
 
+@media screen and (max-width: 600px) {
+  .authors {
+    font-size: 13px; }
+
+  .takkar {
+    margin: 5px; }
+
+  .takkar:hover {
+    box-shadow: 0px 0px black;
+    border-radius: 0px;
+    margin-right: 0px; } }
 .slideLeft {
   animation-name: slideLeft;
   -webkit-animation-name: slideLeft;
