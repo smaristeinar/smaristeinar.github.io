@@ -86,7 +86,8 @@ body:active{
 
 
 
-.takkar{
+.home .takkar{
+  visibility: visible;
   text-decoration: none;
   color: hotpink;
   font-size: 30px;
@@ -102,6 +103,13 @@ body:active{
 
 
 }
+.home .homebutton{
+  visibility: hidden;
+  margin: 0px;
+  padding: 0px;
+  width: 0px;
+  height: 0px;
+}
 
 .takkar:hover{
   box-shadow: 20px 20px black;
@@ -109,7 +117,7 @@ body:active{
   margin-right: 25px;
 }
 
-.navdiv{
+.home .navdiv{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -202,4 +210,49 @@ body:active{
     border-radius: 0px;
     margin-right: 0px;
   }
+  .home{
+    width: auto;
+    height: 75px;
+  }
+
+  .home .takkar{
+    padding: 0px;
+    margin: 0px;
+    visibility: hidden;
+  }
+
+  .home .homebutton{
+    visibility: visible;
+    text-align: center;
+    display: block;
+    height: 75px;
+    width: 75px;
+    margin:auto;
+    padding-top: 30px;
+
+  }
+  .home:hover{
+    width:auto;
+    height:auto;
+  }
+  .home:hover .takkar {
+      visibility: visible;
+      margin: 25px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 15px;
+  }
+  .home:hover .homebutton{
+    visibility: hidden;
+    left: -1000px;
+    margin: 0px;
+    padding: 0px;
+    width: 0px;
+    height: 0px;
+  }
+
+
 }
+
+@function hide(){
+  }
