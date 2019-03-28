@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 font-family: 'Monoton', cursive; fonts or buttons
 font-family: 'Press Start 2P', cursive; paragrapsh
@@ -37,11 +38,14 @@ body:active {
   margin-bottom: 30px; }
 
 .content {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   color: #f765b8;
   background-color: #27fdf5;
   text-decoration: none;
-  padding-left: 25%;
-  padding-right: 25%;
+  padding-left: 15%;
+  padding-right: 15%;
   text-align: center;
   border: solid 3px #f98dc9;
   border-radius: 12px;
@@ -94,12 +98,17 @@ body:active {
   justify-content: center;
   flex-wrap: wrap; }
 
-.tree > img {
+.tremynd {
   width: 300px;
   height: 300px;
   padding: 0px;
   margin: 0px;
-  display: block; }
+  display: block;
+  bottom: 0px; }
+
+.tree {
+  width: 300px;
+  display: flex; }
 
 .man:hover {
   cursor: url(/assets/img/cross2.png), crosshair; }
@@ -149,7 +158,57 @@ body:active {
   text-decoration: none;
   padding-top: 6px; }
 
-@media screen and (max-width: 600px) {
+.gunscontainer {
+  text-align: center;
+  margin: 10px;
+  border: 5px solid hotpink;
+  border-radius: 12px; }
+
+tbody {
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%; }
+
+td {
+  padding: 5px; }
+
+.login {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  display: block; }
+
+.username {
+  width: 100px; }
+
+.password {
+  width: 100px; }
+
+.auglysing {
+  padding: 10px;
+  border: 5px solid black;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: 200px;
+  margin-top: 30px; }
+
+.auglysingni├░ri {
+  margin: 0;
+  padding: 0; }
+
+.augtexti {
+  bottom: 2px;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 30px; }
+
+.logo2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px; }
+
+@media screen and (max-width: 850px) {
   .authors {
     font-size: 13px; }
 
@@ -196,7 +255,22 @@ body:active {
     margin: 0px;
     padding: 0px;
     width: 0px;
-    height: 0px; } }
+    height: 0px; }
+
+  .tree {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: auto; }
+
+  .gunscontainer > td {
+    padding: 0px; }
+
+  .background {
+    padding-left: 30px;
+    padding-right: 30px; }
+
+  .auglysing {
+    margin-top: 0px; } }
 .slideLeft {
   animation-name: slideLeft;
   -webkit-animation-name: slideLeft;
@@ -304,16 +378,50 @@ body:active {
     transform: translateX(5%); }
   100% {
     transform: translateX(0%); } }
-@keyframes ani {
+@keyframes move {
   0% {
-    transform: rotateX(100%); }
+    transform: translateX(100%); }
   50% {
-    transform: rotateX(0%); }
+    transform: translate(0%); }
   100% {
-    transform: rotateX(100%); } }
+    transform: translateX(100%); } }
 .man {
-  x-transition: all 1s ease-in-out;
-  animation: ani 1.7s infinite; }
+  animation-timing-function: ease-in-out;
+  animation: move 1.7s infinite; }
+
+@keyframes fadeIn {
+  0% {
+    transform: scale(0.4);
+    opacity: 0.5; }
+  60% {
+    transform: scale(1.1); }
+  80% {
+    transform: scale(0.9);
+    opacity: 1; }
+  100% {
+    transform: scale(1);
+    opacity: 1; } }
+.augtexti {
+  animation: infinite;
+  animation-name: fadeIn;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out;
+  visibility: visible !important; }
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.7; }
+  50% {
+    transform: scale(1);
+    opacity: 1; }
+  100% {
+    transform: scale(0.9);
+    opacity: 0.7; } }
+.logo2 {
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite; }
 
 @font-face {
   font-family: 'icomoon';

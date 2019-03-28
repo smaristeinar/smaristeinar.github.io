@@ -50,11 +50,14 @@ body:active{
 
 
 .content{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   color: 	#f765b8;
   background-color: #27fdf5;
   text-decoration: none;
-  padding-left: 25%;
-  padding-right: 25%;
+  padding-left: 15%;
+  padding-right: 15%;
   text-align: center;
   border: solid 3px #f98dc9;
   border-radius: 12px;
@@ -126,13 +129,19 @@ body:active{
 }
 
 
-.tree > img{
+.tremynd{
   width: 300px;
   height: 300px;
   padding: 0px;
   margin: 0px;
   display: block;
+  bottom: 0px;
 
+}
+
+.tree{
+  width: 300px;
+  display: flex;
 }
 .man:hover{
   cursor: url(/assets/img/cross2.png),crosshair;
@@ -197,7 +206,87 @@ body:active{
  padding-top: 6px;
 }
 
-@media screen and (max-width: 600px){
+
+
+
+
+.gunscontainer{
+
+  text-align: center;
+  margin: 10px;
+  border: 5px solid hotpink;
+  border-radius: 12px;
+}
+tbody{
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+td{
+
+  padding: 5px;
+}
+
+.login{
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  display: block;
+}
+.username{
+  width: 100px;
+  }
+
+.password{
+
+  width: 100px;
+}
+
+.enter{
+
+
+}
+
+
+
+.auglysing{
+  padding: 10px;
+  border: 5px solid black;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: 200px;
+  margin-top: 30px;
+}
+.auglysinguppi{
+
+}
+.auglysingniðri{
+  margin: 0;
+  padding: 0;
+
+}
+
+.augtexti{
+  bottom: 2px;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 30px;
+}
+.logo2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 850px){
   .authors{
     font-size: 13px;
 
@@ -251,8 +340,26 @@ body:active{
     height: 0px;
   }
 
+  .tree{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: auto;
 
-}
-
-@function hide(){
   }
+
+  .gunscontainer{
+
+  }
+  .gunscontainer > td{
+    padding: 0px;
+
+  }
+  .background{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+ .auglysing{
+   margin-top: 0px;
+ }
+}

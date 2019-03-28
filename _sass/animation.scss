@@ -177,21 +177,66 @@
   }
 }
 
-@keyframes ani {
+@keyframes move{
   0% {
-    transform: rotateX(100%);
-  }
+    transform: translateX(100%); }
   50% {
-    transform: rotateX(0%);
-  }
+    transform: translate(0%); }
   100% {
-    transform: rotateX(100%);
-  }
+    transform: translateX(100%); } }
+.man{
+	animation-timing-function: ease-in-out;
+  animation:move 1.7s infinite; }
+
+
+	@keyframes fadeIn {
+		0% {
+			transform: scale(0.4);
+			opacity: 0.5;
+		}
+		60% {
+			transform: scale(1.1);
+		}
+		80% {
+			transform: scale(0.9);
+			opacity: 1;
+		}
+		100% {
+			transform: scale(1);
+			opacity: 1;
+		}
+	}
+
+
+.augtexti{
+ animation: infinite;
+ animation-name: fadeIn;
+ animation-duration: 2.5s;
+ animation-timing-function: ease-in-out;
+ visibility: visible !important;
+
 }
 
 
 
-	.man{
-		x-transition: all 1s ease-in-out;
-		  animation: ani 1.7s infinite;
+@keyframes pulse {
+	0% {
+		transform: scale(0.9);
+		opacity: 0.7;
 	}
+	50% {
+		transform: scale(1);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(0.9);
+		opacity: 0.7;
+	}
+}
+
+
+.logo2{
+	animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
