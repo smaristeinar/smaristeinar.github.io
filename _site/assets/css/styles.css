@@ -49,6 +49,7 @@ body {
   font-size: 60px; }
 
 .content {
+  padding: 10px;
   flex-grow: 2;
   grid-area: content;
   background-color: #660000;
@@ -102,3 +103,6 @@ body {
 
 .Event > h4 {
   font-family: 'New Rocker', cursive; }
+
+.blog {
+  list-style: none; }
