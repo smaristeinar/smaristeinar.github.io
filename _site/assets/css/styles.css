@@ -114,3 +114,24 @@ a {
 ul {
   padding: 0;
   list-style: none; }
+
+.navdiv {
+  text-align: center;
+  width: 100%;
+  display: grid;
+  font-size: 30px;
+  grid-row: 1fr 1fr 1fr 1fr;
+  padding: 0; }
+
+.takkar {
+  transition: background-color .3s; }
+
+.takkar:hover {
+  background-color: #510000; }
+
+.content {
+  border-left: 40px solid black;
+  border-right: 40px solid black; }
+
+.banner {
+  border-bottom: 20px solid black; }
