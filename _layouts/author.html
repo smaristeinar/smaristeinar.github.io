@@ -1,17 +1,19 @@
 ---
 layout: default
 ---
-<h1>{{ page.name }}</h1>
-<h2>{{ page.position }}</h2>
+<div class="padding">
+  <h1>{{ page.name }}</h1>
+  <h2>{{ page.position }}</h2>
 
-{{ content }}
+  {{ content }}
 
-<h2>Songs</h2>
-<ul>
-  <div class="authors">
-  {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
-  {% for post in filtered_posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
+  <h2>Albums</h2>
+  <ul>
+    <div class="authors">
+    {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
+    {% for post in filtered_posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </div>
+  </ul>
 </div>
-</ul>

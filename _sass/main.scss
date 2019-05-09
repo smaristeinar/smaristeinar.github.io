@@ -11,6 +11,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   background-image: url("/assets/img/veggur.jpg");
+  font-size: 30px;
 
 }
 
@@ -94,4 +95,15 @@ body{
 .logo {
   background-color: #660000;
   width: 840px;
+}
+
+.band-logo{
+  padding-left: 30px;
+  width: 300px;
+  height: 300px;
+}
+
+.padding{
+  padding-left: 70px;
+  font-family: 'Reem Kufi', sans-serif;
 }
