@@ -105,4 +105,5 @@ body {
   font-family: 'New Rocker', cursive; }
 
 .blog {
+  padding: 0;
   list-style: none; }
