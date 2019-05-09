@@ -1,0 +1,16 @@
+---
+layout: default
+title: Blog
+---
+<div class="blog">
+<h1>Latest Posts</h1>
+
+<ul class="authors">
+  {% for post in site.posts %}
+    <li class="blog">
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p class="Blog">{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
+</div>
