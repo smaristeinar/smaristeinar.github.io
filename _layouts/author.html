@@ -3,11 +3,11 @@ layout: default
 ---
 <div class="padding">
   <h1>{{ page.name }}</h1>
-  <h2>{{ page.position }}</h2>
+  <h1>{{ page.position }}</h1>
 
   {{ content }}
 
-  <h2>Albums</h2>
+  <h1>Albums</h1s>
   <ul>
     <div class="authors">
     {% assign filtered_posts = site.posts | where: 'author', page.short_name %}

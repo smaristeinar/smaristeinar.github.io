@@ -35,7 +35,7 @@ body {
 
 .navdiv {
   text-align: center;
-  width: 200px;
+  width: 100%;
   display: grid;
   padding: 10px;
   font-size: 30px;
@@ -82,5 +82,23 @@ body {
   height: 300px; }
 
 .padding {
-  padding-left: 70px;
+  text-align: center;
+  text-decoration: none;
   font-family: 'Reem Kufi', sans-serif; }
+
+.list {
+  text-decoration: none;
+  list-style: none; }
+
+.padding > h1 {
+  font-family: 'New Rocker', cursive; }
+
+.Event {
+  font-family: 'Reem Kufi', sans-serif;
+  text-align: center; }
+
+.Event > h1 {
+  font-family: 'New Rocker', cursive; }
+
+.Event > h4 {
+  font-family: 'New Rocker', cursive; }
